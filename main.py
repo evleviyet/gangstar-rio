@@ -1,1 +1,5 @@
-# This is gangstar_app.py renamed as main.py for Flet
+from gangstar_app import main
+import flet as ft
+
+if __name__ == "__main__":
+    ft.app(target=main)

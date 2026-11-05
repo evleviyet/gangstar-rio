@@ -1,4 +1,4 @@
-name: Build APK
+name: Build Flet APK
 
 on:
   push:
@@ -13,19 +13,28 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up JDK
-      uses: actions/setup-java@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        java-version: '11'
-        distribution: 'temurin'
+        python-version: '3.11'
 
-    - name: Build with Gradle
+    - name: Install dependencies
       run: |
-        chmod +x gradlew
-        ./gradlew assembleDebug
+        python -m pip install --upgrade pip
+        pip install buildozer cython
+
+    - name: Install Android build tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y default-jdk default-jre
+
+    - name: Build APK with Buildozer
+      run: |
+        cd /home/runner/work/gangstar-rio/gangstar-rio
+        buildozer android debug
 
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
-        name: app-debug.apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: gangstar-rio-debug.apk
+        path: bin/gangstar_rio-1.0.0-debug.apk
