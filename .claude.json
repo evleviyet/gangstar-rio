@@ -23,7 +23,7 @@
     "mobile-app": 3,
     "voice-mode": 4
   },
-  "promptQueueUseCount": 8,
+  "promptQueueUseCount": 9,
   "cachedGrowthBookFeatures": {
     "cai_proud_planet": false,
     "claude_code_skills_dashboard_enabled_cli": false,
