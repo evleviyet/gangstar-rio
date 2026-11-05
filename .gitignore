@@ -1,0 +1,11 @@
+.claude/
+.git/
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+node_modules/
+build/
+dist/
+*.apk
+*.aab
