@@ -9,32 +9,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/flet-dev/flet-ci-android:latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-
-    - name: Install dependencies
+    - name: Build APK with Flet
       run: |
-        python -m pip install --upgrade pip
-        pip install buildozer cython
-
-    - name: Install Android build tools
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y default-jdk default-jre
-
-    - name: Build APK with Buildozer
-      run: |
-        cd /home/runner/work/gangstar-rio/gangstar-rio
-        buildozer android debug
+        flet build apk --output gangstar.apk
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: gangstar-rio-debug.apk
-        path: bin/gangstar_rio-1.0.0-debug.apk
+        name: gangstar-rio.apk
+        path: build/outputs/apk/gangstar.apk
+        if-no-files-found: ignore
