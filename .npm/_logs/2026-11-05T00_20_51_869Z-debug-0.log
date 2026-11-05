@@ -1,0 +1,81 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @anthropic-ai/claude-code
+7 verbose argv "install" "--global" "@anthropic-ai/claude-code"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-11-05T00_20_51_869Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-11-05T00_20_51_869Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile start cleaning logs, removing 2 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @anthropic-ai/claude-code@*
+15 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code cache-miss
+16 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code 14ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code set size:1585344 disposed:false
+18 silly placeDep ROOT @anthropic-ai/claude-code@2.1.318 OK for:  want: *
+19 silly fetch manifest @anthropic-ai/claude-code-linux-x64@2.1.318
+20 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 cache-miss
+21 silly fetch manifest @anthropic-ai/claude-code-win32-x64@2.1.318
+22 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 cache-miss
+23 silly fetch manifest @anthropic-ai/claude-code-darwin-x64@2.1.318
+24 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 cache-miss
+25 silly fetch manifest @anthropic-ai/claude-code-linux-arm64@2.1.318
+26 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 cache-miss
+27 silly fetch manifest @anthropic-ai/claude-code-win32-arm64@2.1.318
+28 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 cache-miss
+29 silly fetch manifest @anthropic-ai/claude-code-darwin-arm64@2.1.318
+30 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 cache-miss
+31 silly fetch manifest @anthropic-ai/claude-code-linux-x64-musl@2.1.318
+32 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl cache-miss
+33 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 11ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 set size:415012 disposed:false
+35 silly fetch manifest @anthropic-ai/claude-code-linux-arm64-musl@2.1.318
+36 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl cache-miss
+37 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 14ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 set size:425350 disposed:false
+39 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 18ms (cache hit)
+40 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 set size:422070 disposed:false
+41 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 20ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 set size:415683 disposed:false
+43 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 23ms (cache hit)
+44 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 set size:423921 disposed:false
+45 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl 25ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl set size:429249 disposed:false
+47 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 29ms (cache hit)
+48 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 set size:419009 disposed:false
+49 http cache https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl 22ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl set size:427725 disposed:false
+51 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-darwin-arm64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+52 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-darwin-x64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+53 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-arm64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+54 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-arm64-musl@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+55 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-x64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+56 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-x64-musl@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+57 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-win32-arm64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+58 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-win32-x64@2.1.318 OK for: @anthropic-ai/claude-code@2.1.318 want: 2.1.318
+59 silly reify mark retired [
+59 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/@anthropic-ai/claude-code',
+59 silly reify   '/data/data/com.termux/files/usr/bin/claude'
+59 silly reify ]
+60 silly reify moves {
+60 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/@anthropic-ai/claude-code': '/data/data/com.termux/files/usr/lib/node_modules/@anthropic-ai/.claude-code-osVP1ayp',
+60 silly reify   '/data/data/com.termux/files/usr/bin/claude': '/data/data/com.termux/files/usr/bin/.claude-sRNZIwEg'
+60 silly reify }
+61 http cache @anthropic-ai/claude-code@https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.318.tgz 0ms (cache hit)
+62 info run @anthropic-ai/claude-code@2.1.318 postinstall node_modules/@anthropic-ai/claude-code node install.cjs
+63 info run @anthropic-ai/claude-code@2.1.318 postinstall { code: 0, signal: null }
+64 silly CHANGE node_modules/@anthropic-ai/claude-code
+65 warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+65 warn allow-scripts   @anthropic-ai/claude-code@2.1.318 (postinstall: node install.cjs)
+65 warn allow-scripts
+65 warn allow-scripts Run `npm install -g --allow-scripts=@anthropic-ai/claude-code` to allow these scripts once, or `npm config set allow-scripts=@anthropic-ai/claude-code --location=user` to allow them for all global installs.
+66 verbose cwd /data/data/com.termux/files/home
+67 verbose os Linux 6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k
+68 verbose node v24.17.0
+69 verbose npm  v11.17.0
+70 verbose exit 0
+71 info ok

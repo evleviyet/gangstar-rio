@@ -1,0 +1,10 @@
+name: gangstar_rio
+description: Gangstar Rio - Open World Game
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flet: ^0.23.0

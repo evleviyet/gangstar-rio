@@ -1,0 +1,5 @@
+pre-version: Error: claude native binary not installed.
+unknown
+bin: lrwxrwxrwx. 1 u0_a399 u0_a399 60 Nov  4 21:15 /data/data/com.termux/files/usr/bin/claude -> ../lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe
+node: v24.17.0
+date_utc: 20261104-181757

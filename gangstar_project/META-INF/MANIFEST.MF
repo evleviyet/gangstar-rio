@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+MIDlet-Vendor: Gameloft SA
+MIDlet-Version: 1.0.9
+SEMC-Screen-Size: 240,320
+MIDlet-1: Gangstar Rio: City of Saints, /icon.png, GloftGRIO
+MicroEdition-Configuration: CLDC-1.1
+Created-By: 1.6.0_18 (Sun Microsystems Inc.)
+MIDlet-Icon: /icon.png
+MIDlet-Name: Gangstar Rio: City of Saints
+MicroEdition-Profile: MIDP-2.0
+

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-by: CAPCOM
+MIDlet-1: 1942, /icon.png, Game1942
+MIDlet-Name: 1942
+MIDlet-Version: 1.0.0
+MIDlet-Icon: /icon.png
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Data-Size: 512
+MIDlet-Vendor: CAPCOM
+MIDlet-Delete-Confirm: More free games on dedomil.net
+MIDlet-Description: Visit dedomil.net for more games!
+MIDlet-Info-URL: http://dedomil.net
